@@ -19,7 +19,7 @@ public class ProductController {
         return productService.findAll();
     }
 
-    @GetMapping("/detail/${id}")
+    @GetMapping("/detail/{id}")
     public Product detail(@PathVariable Long id){
         return productService.findById(id);
     }
