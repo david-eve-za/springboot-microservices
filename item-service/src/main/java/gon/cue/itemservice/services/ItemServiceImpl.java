@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import gon.cue.itemservice.models.Item;
 import org.springframework.web.client.RestTemplate;
 
-@Service
+@Service("serviceRest")
 public class ItemServiceImpl implements ItemService {
 
     @Autowired
